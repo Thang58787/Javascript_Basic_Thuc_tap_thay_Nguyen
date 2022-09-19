@@ -1,6 +1,17 @@
-function dienTich (a, b, c,){
-    let p = (a + b + c)/2;
-    return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+let toDay = new Date();
+let day = toDay.getDate();
+let month = toDay.getMonth() +1;
+let year = toDay.getFullYear()
+if(day<10){
+    day = '0' +day;
 }
+if(month<10){
+    month = '0' +month;
+}
+console.log(month + '-' +day + '-' +year);
+console.log(month + '/' +day + '/' +year);
+console.log(day + '-' +month + '-' +year);
+console.log(day + '/' +month + '/' +year);
 
-console.log(dienTich(3, 4, 5))
+
+
