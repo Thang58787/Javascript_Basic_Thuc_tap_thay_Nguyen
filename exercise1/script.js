@@ -1,6 +1,9 @@
 //cách 1
 let toDay = new Date()
-var day = toDay.getDay();
+let day = toDay.getDay();
+let hours = toDay.getHours();
+let minutes = toDay.getMinutes();
+let seconds = toDay.getSeconds();
 const daylist = [
     "Sunday",
     "Monday",
@@ -10,9 +13,6 @@ const daylist = [
     "Friday",
     "Saturday",
 ];
-let hours = toDay.getHours();
-let minutes = toDay.getMinutes();
-let seconds = toDay.getSeconds();
 
 console.log("Today is: " + daylist[day]);
 if (hours >= '12'){
