@@ -1,10 +1,14 @@
-let toDay = new Date();
-let dd = toDay.getDay();
-let ddlist = ['Monday' ,'Tuesday' ,'Wednesday' ,'Thursday' ,'Friday' ,' Saturday' ,'Sunday'];
+let toDay = new Date()
+console.log('Today is: ' + toDay.toLocaleString('en-us', {weekday:'long'}))
+let hours = toDay.getHours();
+let minutes = toDay.getMinutes();
+let seconds = toDay.getSeconds();
 
-console.log('Today is : ' + ddlist[dd]);
-let h = toDay.getHours();
-let m = toDay.getMinutes();
-let s = toDay.getSeconds();
-let ampm = h >= 12 ? 'PM' : 'AM';
-console.log(h + ampm +' : '+ m +' : '+ s)
+if (hours >= '12'){
+    hours = hours - 12
+    console.log(hours + 'PM' +' : '+ minutes +' : '+ seconds)
+}
+else{
+    console.log(hours + 'AM' +' : '+ minutes +' : '+ seconds)
+}
+

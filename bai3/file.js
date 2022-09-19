@@ -1,7 +1,7 @@
-function dienTich (a,b,c){
+function dienTich (a, b, c){
     let output = 0;
-    let p = (a+b+c)/2;
-    output = Math.sqrt(p*(p-a)*(p-b)*(p-c));
+    let p = (a + b +c)/2;
+    output = Math.sqrt(p * (p - a) * (p - b) * (p - c));
     return output;
 
 }
