@@ -9,9 +9,12 @@ Write a JavaScript program to find the area of a triangle where lengths of the t
 **Công thức Heron:**
 $$S = \sqrt{p(p-a)(p-b)(p-c)}$$
 Trong đó:
-	$S$ là diện tích hình tam giác
-	$a, b, c$ là chiều dài 3 cạnh của hình tam giác
-	$p$ là nửa chu vi hình chữ nhật
+
+$S$ là diện tích hình tam giác
+
+$a, b, c$ là chiều dài 3 cạnh của hình tam giác	
+
+$p$ là nửa chu vi hình chữ nhật
 
 **Nửa chu vi hình tam giác:**
 $$p = \frac{a+b+c}{2}$$
