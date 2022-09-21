@@ -1,3 +1,3 @@
-function printfWindown (){
+function printWindow (){
     window.print();
 }

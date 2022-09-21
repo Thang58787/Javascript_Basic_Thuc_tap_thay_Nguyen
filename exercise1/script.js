@@ -15,13 +15,13 @@ const daylist = [
 ];
 
 console.log("Today is: " + daylist[day]);
-if (hours >= '12'){
+if (hours >= '12') {
     hours = hours - 12
-    console.log(hours + ':'+ minutes +':'+ seconds + ' PM')
+    console.log(hours + ':' + minutes + ':' + seconds + ' PM')
 }
-else{
-    console.log(hours +':' + minutes +':'+ seconds + ' AM')
+else {
+    console.log(hours + ':' + minutes + ':' + seconds + ' AM')
 }
 
 // cách 2
-console.log('Today is ' + toDay.toLocaleString('en-US', { weekday:'long', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true }));
+console.log('Today is ' + toDay.toLocaleString('en-US', { weekday: 'long', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true }));
