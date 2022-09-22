@@ -7,4 +7,4 @@ function ramDOm(n) {
         console.log('Not matched');
     }
 }
-console.log(ramDOm(4));
+ramDOm(n);
