@@ -8,4 +8,3 @@ function ramDOm(n) {
     }
 }
 console.log(ramDOm(4));
-prompt('nhapso')
