@@ -1,4 +1,4 @@
-filename = "system.php"
+filename = "chau.html"
 console.log(filename.split('.').pop());
-filename = "abc.js"
+filename = "main.js"
 console.log(filename.split('.').pop());
