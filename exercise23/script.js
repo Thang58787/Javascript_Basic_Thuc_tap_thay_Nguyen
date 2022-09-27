@@ -9,4 +9,4 @@ function changingPosition(str) {
         return str.join('')
     }
 }
-console.log(changingPosition('q'))
+console.log(changingPosition('quangchung'))
