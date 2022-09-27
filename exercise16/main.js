@@ -7,6 +7,5 @@ function  Sum(x, y) {
       return (x + y);
      }
    }
-  console.log(sumTriple(11, 23));
-  
+  console.log(Sum(11, 23));
   
