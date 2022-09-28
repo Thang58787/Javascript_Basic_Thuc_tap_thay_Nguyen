@@ -1,20 +1,11 @@
-function max_of_three(x, y, z) 
+function largestNum(x, y, z) 
  {
-  max_val = 0;
-  if (x > y)
-  {
-    max_val = x;
-  } else
-  {
-    max_val = y;
-  }
-  if (z > max_val) 
-  {
-    max_val = z;
-  }
-  return max_val;
+  var max = x;
+  if(max < y) {
+   return  max = y;
 }
-
-console.log(max_of_three(1,0,1));
-console.log(max_of_three(0,-10,-20));
-console.log(max_of_three(1000,510,440));
+if(max < z) {
+   return max=z; 
+}
+ }
+console.log(largestNum(24,7,2001));
