@@ -1,8 +1,8 @@
 function checkNumber(a, b) {
-    if ((a >= 40 && b >= 60) || (b >= 40 && a >= 60)) {
+    if ((a >= 40 && b >= 60) && (b >= 40 && a >= 60)) {
         return true;
     }
-    if ((a >= 70 && b >= 100) || (b >= 70 && a >= 100)) {
+    if ((a >= 70 && b >= 100) && (b >= 70 && a >= 100)) {
         return true;
     }
     return false;
