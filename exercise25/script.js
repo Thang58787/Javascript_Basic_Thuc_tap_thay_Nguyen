@@ -6,5 +6,5 @@ function multiple(num) {
     }
 }
 console.log(multiple(6));
-console.log(multiple(14))
-console.log(multiple(19))
+console.log(multiple(14));
+console.log(multiple(19));

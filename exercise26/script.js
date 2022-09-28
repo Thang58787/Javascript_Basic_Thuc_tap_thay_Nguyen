@@ -1,7 +1,6 @@
-function addcharacter(str) {
-    let letter = str.slice(-3);
-    let newstr = "";
-    newstr = letter + str + letter;
-    return newstr;
+function addCharacter(str) {
+    let newStr = "";
+    newStr = str.slice(-3); + str + str.slice(-3);;
+    return newStr;
 }
-console.log(addcharacter('quangchung'))
+console.log(addCharacter('quangchung'));
