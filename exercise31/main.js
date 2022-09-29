@@ -1,11 +1,14 @@
-function largestNum(x, y, z) 
+function largestNum(x, y,z) 
  {
-  var max = x;
+  let max = x;
   if(max < y) {
    return  max = y;
 }
 if(max < z) {
    return max = z; 
 }
+ else {
+    return max = x;
  }
-console.log(largestNum(24,7,2001));
+ }
+console.log(largestNum(24,7,21));
