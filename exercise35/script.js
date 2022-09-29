@@ -1,13 +1,8 @@
 function checkString(str, char) {
-    let output = 0;
     for (let i = 0; i < str.length; i++) {
         if ((str.charAt(i) == char) && (i >= 1 && i <= 3)) {
-            output = 1;
-            break;
+            return true;
         }
-    }
-    if (output == 1) {
-        return true;
     }
     return false;
 }
