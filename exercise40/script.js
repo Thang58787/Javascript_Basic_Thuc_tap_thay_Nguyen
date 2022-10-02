@@ -1,3 +1,4 @@
+// Đây là bài 41, không phải bài 40
 function checkNumber(a, b, c) {
     if (a == b && a == c && b == c) {
         return 30;
