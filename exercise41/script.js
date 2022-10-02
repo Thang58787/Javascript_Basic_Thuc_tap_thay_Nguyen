@@ -1,3 +1,4 @@
+// Đây là bài 40, không phải 41
 function checkNumber(a, b) {
     let sum = a + b;
     let diff = a - b;
@@ -14,6 +15,6 @@ function checkNumber(a, b) {
 console.log(checkNumber(20, 10));
 console.log(checkNumber(20, 12));
 console.log(checkNumber(8, 9));
-console.log(checkNumber(1, 1))
+console.log(checkNumber(1, 1));
 
 
