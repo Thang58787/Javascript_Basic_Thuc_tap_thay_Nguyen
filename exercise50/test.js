@@ -1,15 +1,11 @@
-function titleCase(str) {
-    //var myString = str.toLowerCase().split('');;
-    for (let i = 0; i <= myString.length - 1; i++) {
-        if (myString[i] === " ") {
-            i = i + 1;
-            myString = myString[i].toUpperCase();
-
-        }
+function titleCase(myString) {
+    var arr = myString.toLowerCase().split(' ');
+    for (let i = 0; i <= arr.length - 1; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
 
     }
-    return myString;
+    return arr.join(' ');
 
 
 }
-console.log(titleCase('quang nhung nanana SHDJGSbdsxclksjb'))
+console.log(titleCase('Write a JavaScript program to capitalize the first letter of each word of a given string.'))
