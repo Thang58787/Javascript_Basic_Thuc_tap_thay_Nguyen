@@ -1,13 +1,13 @@
 function titleCase(myString) {
     var arr = myString.toLowerCase().split(' ');
     for (let i = 0; i <= arr.length - 1; i++) {
-        if (arr.charCodeAt(i) === " "){
+        if (arr[i] === " "){
             i = i + 1;
-            arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+            // arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+            return i;
         }
 
     }
-    return arr.join(' ');
 
 
 }
