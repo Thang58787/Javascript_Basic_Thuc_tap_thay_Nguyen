@@ -7,13 +7,11 @@ function checknumberofPandT(str) {
         } if (str[i] == 't') {
             b++;
         }
-
     }
     if (a == b) {
         return true;
     }
-    return false
-
+    return false;
 }
 
 console.log(checknumberofPandT("paatpss"));
