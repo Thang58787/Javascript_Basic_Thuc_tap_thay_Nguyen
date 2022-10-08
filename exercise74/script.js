@@ -1,15 +1,6 @@
 function setNumber(arr) {
-    if ((arr[0] > arr[2])) {
-        arr[0] = arr[0];
-        arr[1] = arr[0];
-        arr[2] = arr[0];
-        return [arr[0], arr[1], arr[2]]
-    } if ((arr[0] < arr[2])) {
-        arr[0] = arr[2];
-        arr[1] = arr[2];
-        arr[2] = arr[2];
-        return [arr[0], arr[1], arr[2]]
-    }
+    let max = Math.max(arr[0], arr[arr.length - 1]);
+   return[arr[0]=max, arr[1]=max, arr[2]=max]
 
 }
 console.log(setNumber([20, 30, 40]));
