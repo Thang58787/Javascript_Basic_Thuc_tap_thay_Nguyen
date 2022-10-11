@@ -10,3 +10,4 @@ function checkString (arr){
     return [longest];
 }
 console.log(checkString(['a' ,'aa' ,'aaa']))
+// dạng bài toán tìm số lớn nhât của một mảng
