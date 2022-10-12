@@ -1,4 +1,4 @@
-function replaceCharacter(str) {
+function replaceCharacter1(str) {
     let newstr = '';
     for (let i = 0; i <= str.length - 1; i++) {
             if(str.charCodeAt(i)==122){
@@ -16,8 +16,8 @@ function replaceCharacter(str) {
         return newstr;
     }
 
-    console.log(replaceCharacter("PYTHON"));
-    console.log(replaceCharacter("W3RZ"));
-    console.log(replaceCharacter("php"));
+    console.log(replaceCharacter1("PYTHON"));
+    console.log(replaceCharacter1("W3RZ"));
+    console.log(replaceCharacter1("abcdxyz"));
 
 
