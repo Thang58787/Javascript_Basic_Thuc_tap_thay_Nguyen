@@ -26,3 +26,5 @@ function array_checking(arra1, arra2) {
 console.log(array_checking([10, 20, 30], [10, 20, 30]))
 console.log(array_checking([10, 20, 30], [30, 10, 20]))
 console.log(array_checking([10, 20, 30, 40], [10, 30, 20, 40]))
+
+//
