@@ -1,5 +1,5 @@
 function checkString (arr){
-    let lgth = 0;
+    let lgth = arr[0].length;
     let longest;
     for(let i =0;i<arr.length;i++){
         if(arr[i].length>lgth){
