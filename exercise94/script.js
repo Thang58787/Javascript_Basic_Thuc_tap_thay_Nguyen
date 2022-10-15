@@ -1,15 +1,15 @@
-function appearsNUmber (arr){
+function appearsNUmber(arr, num) {
     arr.sort();
     let result = 0
-    let max =0 ;
+    let max = 0;
     let temp = 0
-    for(let i =0;i<arr.length;i++){
-        if(arr[i]==arr[i+1]){
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == arr[i + 1]) {
             temp++;
-        } else{
-            temp =0;
+        } else {
+            temp = 0;
         }
-        if(temp>max){
+        if (temp > max) {
             result = arr[i];
             max = temp;
         }
