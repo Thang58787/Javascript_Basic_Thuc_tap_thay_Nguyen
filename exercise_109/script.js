@@ -1,14 +1,4 @@
-// function find_prime_number(num) {
-//     let arr = [];
-//     let iSprime = true;
-//     for (let i = 2; i <= num; i++) {
-//        if(i%2 ==1){
-//         arr.push(i)
-//        }
-//     }
-//     return arr
-// }
-// console.log(find_prime_number(13))
+
 function sort_prime(num) {
 
     var prime_num1 = [],
