@@ -13,4 +13,5 @@ function checkString(str) {
     }
 }
 console.log(checkString('xAr'));
-console.log(checkString('XXAx')); 
+console.log(checkString('XXAx'));
+ 
