@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+#main{
+    height: 300px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-style: groove;
+}
+.modal-input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 24px;
+    margin-left: 10px;
+
+}
+.calculate{
+    display: inline-block;
+    border: 1px solid;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+.calculate:hover{
+    cursor: pointer;  
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+.modal-output{
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px 20px;
+}

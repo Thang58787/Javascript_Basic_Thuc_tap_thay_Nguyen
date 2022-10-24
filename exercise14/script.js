@@ -1,0 +1,1 @@
+console.log('day la mo rong file js');
