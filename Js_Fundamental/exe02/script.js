@@ -1,11 +1,18 @@
-function getTotalX(a, b) {
-    // Write your code here
-    var count = 0;
-    
-    for(let i = Math.max(...a);i<=Math.max(...b);i++){
-        if(a.every(v=> i%v===0) && b.every(v=> v%i===0))
-            count++;
-    }
-    return count;
-}
-console.log(getTotalX([2,4],[16,32,9]))
+const Create_Clipboard = str=>{
+    const el=document.createElement('textarea');
+    el.value =str;
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left ='-9999px';
+    document.body.appendChild(el)
+    const selected= 
+        document.getSelection().rangeCount>0? document.getSelection().getRangeAt(0) :false;
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    if(selected){
+        document.getSelection().removeAllRanges();
+        document.getSelection().addRange(selected);
+
+    }   
+};
