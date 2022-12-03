@@ -1,10 +1,4 @@
-
-const pull =(arr,...args) =>{
-    let argState = Array.isArray(args) ? args : 0;
-    let pulled = arr.filter((v,i) =>!argState.includes(v));
-    pulled.forEach(v=>arr.push(v));
-    console.log(argState)
-    
+function myFunction(a, b){
+return a.hasOwnProperty(b)
 }
-let arra1 = ['a', 'b', 'c', 'a', 'b', 'c'];
-  console.log(pull(arra1, 'a', 'c'));
+console.log(myFunction({x:'a',y:null,z:'c'},'y'))
